@@ -28,3 +28,33 @@ Install dependencies:
 
 ```bash
 pip install colorama anthropic
+
+## ⚙️ Usage
+
+```bash
+python sqldiff.py old.sql new.sql [--explain]
+
+
+---
+
+## 🧠 What it means
+
+- It’s just an **example command** showing how to run your script  
+- The `[--explain]` part means it's **optional**, not something you type literally every time  
+
+---
+
+## ❗ Important
+
+Don’t:
+- ❌ Add this inside your Python file  
+- ❌ Run it as-is with brackets  
+
+Instead:
+- ✅ Use it in documentation (README)
+- ✅ Run like this in terminal:
+
+```bash id="zrlhtg"
+python sqldiff.py old.sql new.sql
+
+python sqldiff.py old.sql new.sql --explain
